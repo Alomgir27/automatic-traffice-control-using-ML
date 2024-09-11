@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['people', 'vehicle-people']
+
+roboflow:
+  workspace: alomgir
+  project: traffic2.0
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/alomgir/traffic2.0/dataset/1
